@@ -1,0 +1,9 @@
+snr_bin,class,n,missed_by_stage1_pct,correct_pct,misclassified_pct
+"[-20,-10)",friendly,401,83.3,16.7,0.0
+"[-20,-10)",adversarial,371,81.7,0.5,17.8
+"[-10,0)",friendly,427,11.2,88.8,0.0
+"[-10,0)",adversarial,375,14.9,38.7,46.4
+"[0,10)",friendly,420,0.0,99.0,1.0
+"[0,10)",adversarial,373,0.0,95.4,4.6
+"[10,25)",friendly,672,0.0,100.0,0.0
+"[10,25)",adversarial,561,0.0,99.6,0.4

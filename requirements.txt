@@ -1,0 +1,5 @@
+numpy
+scipy
+pandas
+matplotlib
+pyadi-iio  # only for the SDR capture scripts
