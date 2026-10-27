@@ -1,0 +1,309 @@
+{
+ "offset_BPSK": {
+  "n": 209,
+  "median_cyc": 0.0,
+  "iqr_cyc": 0.0,
+  "frac_abs_lt_1e-3": 1.0
+ },
+ "offset_PAM4": {
+  "n": 255,
+  "median_cyc": 0.0,
+  "iqr_cyc": 0.0,
+  "frac_abs_lt_1e-3": 1.0
+ },
+ "offset_PAM8": {
+  "n": 314,
+  "median_cyc": 0.0,
+  "iqr_cyc": 0.0,
+  "frac_abs_lt_1e-3": 1.0
+ },
+ "offset_ASK": {
+  "n": 282,
+  "median_cyc": 0.0,
+  "iqr_cyc": 0.0,
+  "frac_abs_lt_1e-3": 1.0
+ },
+ "offset_QPSK": {
+  "n": 214,
+  "median_cyc": 0.0,
+  "iqr_cyc": 0.0,
+  "frac_abs_lt_1e-3": 1.0
+ },
+ "offset_8PSK": {
+  "n": 191,
+  "median_cyc": 0.0,
+  "iqr_cyc": 0.0001220703125,
+  "frac_abs_lt_1e-3": 0.6492146596858639
+ },
+ "cyclic_|y|^2": {
+  "BPSK": {
+   "cyclic_freq": 0.25,
+   "period_samples": 4.0,
+   "peak_to_median": 7.799733176175347
+  },
+  "QPSK": {
+   "cyclic_freq": 0.333251953125,
+   "period_samples": 3.0007326007326007,
+   "peak_to_median": 12.99496792633936
+  },
+  "8PSK": {
+   "cyclic_freq": 0.25,
+   "period_samples": 4.0,
+   "peak_to_median": 19.776443914751002
+  },
+  "16QAM": {
+   "cyclic_freq": 0.25,
+   "period_samples": 4.0,
+   "peak_to_median": 5.5808036306294015
+  },
+  "64QAM": {
+   "cyclic_freq": 0.25,
+   "period_samples": 4.0,
+   "peak_to_median": 5.730991402526915
+  },
+  "GFSK": {
+   "cyclic_freq": 0.115234375,
+   "period_samples": 8.677966101694915,
+   "peak_to_median": 1.2972073557366754
+  },
+  "CPFSK": {
+   "cyclic_freq": 0.06201171875,
+   "period_samples": 16.125984251968504,
+   "peak_to_median": 1.2858889678451546
+  },
+  "MSK": {
+   "cyclic_freq": 0.37353515625,
+   "period_samples": 2.6771241830065358,
+   "peak_to_median": 1.4637587120252875
+  },
+  "PAM4": {
+   "cyclic_freq": 0.02001953125,
+   "period_samples": 49.951219512195124,
+   "peak_to_median": 6.549801272190907
+  },
+  "PAM8": {
+   "cyclic_freq": 0.02734375,
+   "period_samples": 36.57142857142857,
+   "peak_to_median": 8.085630861277513
+  },
+  "ASK": {
+   "cyclic_freq": 0.067138671875,
+   "period_samples": 14.894545454545455,
+   "peak_to_median": 116.39638131634808
+  },
+  "OOK": {
+   "cyclic_freq": 0.041015625,
+   "period_samples": 24.38095238095238,
+   "peak_to_median": 77.61708754753751
+  },
+  "DSSS": {
+   "cyclic_freq": 0.499755859375,
+   "period_samples": 2.0009770395701025,
+   "peak_to_median": 1.4275358570974672
+  },
+  "FHSS": {
+   "cyclic_freq": 0.031982421875,
+   "period_samples": 31.267175572519083,
+   "peak_to_median": 51.99605928358785
+  }
+ },
+ "improper_QPSK": {
+  "median": 0.06664268719248535,
+  "p95": 0.22452502284667405
+ },
+ "improper_16QAM": {
+  "median": 0.0983371635243471,
+  "p95": 0.23654622886068058
+ },
+ "improper_64QAM": {
+  "median": 0.11771212926059021,
+  "p95": 0.2687019665045796
+ },
+ "improper_OFDM": {
+  "median": 0.0721704001641084,
+  "p95": 0.17594466013219903
+ },
+ "centroid_vs_channel_spearman": {
+  "rho": 0.006759420211868181,
+  "p": 0.5664932288997069,
+  "n": 7194
+ },
+ "per_rx": {
+  "1": {
+   "n": 1397,
+   "centroid_med": 0.0,
+   "bw90_med": 0.1914
+  },
+  "2": {
+   "n": 1459,
+   "centroid_med": -0.0,
+   "bw90_med": 0.1953
+  },
+  "3": {
+   "n": 1415,
+   "centroid_med": -0.0001,
+   "bw90_med": 0.1992
+  },
+  "4": {
+   "n": 1436,
+   "centroid_med": -0.0001,
+   "bw90_med": 0.1914
+  },
+  "5": {
+   "n": 1487,
+   "centroid_med": -0.0002,
+   "bw90_med": 0.1953
+  }
+ },
+ "rx_counts_by_state": {
+  "1": {
+   "0": 2056,
+   "1": 2237,
+   "2": 2030
+  },
+  "2": {
+   "0": 2024,
+   "1": 2364,
+   "2": 2024
+  },
+  "3": {
+   "0": 2006,
+   "1": 2230,
+   "2": 2020
+  },
+  "4": {
+   "0": 2018,
+   "1": 2287,
+   "2": 2048
+  },
+  "5": {
+   "0": 1976,
+   "1": 2402,
+   "2": 1958
+  }
+ },
+ "bw90_by_mod": {
+  "16QAM": 0.211,
+  "64QAM": 0.211,
+  "8PSK": 0.211,
+  "ASK": 0.055,
+  "BPSK": 0.215,
+  "Burst_Signal": 0.219,
+  "CPFSK": 0.133,
+  "DSSS": 0.449,
+  "FHSS": 0.145,
+  "GFSK": 0.113,
+  "LoRa_like": 0.211,
+  "MSK": 0.133,
+  "OFDM": 0.582,
+  "OFDM_16QAM": 0.594,
+  "OFDM_QPSK": 0.594,
+  "OOK": 0.141,
+  "PAM4": 0.184,
+  "PAM8": 0.18,
+  "QPSK": 0.213,
+  "Radar_Pulse": 0.266
+ },
+ "bw90_vs_channel_spearman_by_mod": [
+  [
+   "16QAM",
+   0.077,
+   0.176
+  ],
+  [
+   "64QAM",
+   -0.067,
+   0.24
+  ],
+  [
+   "8PSK",
+   0.01,
+   0.86
+  ],
+  [
+   "ASK",
+   0.001,
+   0.982
+  ],
+  [
+   "BPSK",
+   -0.006,
+   0.911
+  ],
+  [
+   "Burst_Signal",
+   0.04,
+   0.423
+  ],
+  [
+   "CPFSK",
+   0.057,
+   0.306
+  ],
+  [
+   "DSSS",
+   -0.008,
+   0.881
+  ],
+  [
+   "FHSS",
+   -0.037,
+   0.467
+  ],
+  [
+   "GFSK",
+   -0.048,
+   0.411
+  ],
+  [
+   "LoRa_like",
+   -0.042,
+   0.421
+  ],
+  [
+   "MSK",
+   -0.049,
+   0.39
+  ],
+  [
+   "OFDM",
+   0.033,
+   0.533
+  ],
+  [
+   "OFDM_16QAM",
+   -0.122,
+   0.027
+  ],
+  [
+   "OFDM_QPSK",
+   0.041,
+   0.457
+  ],
+  [
+   "OOK",
+   -0.015,
+   0.748
+  ],
+  [
+   "PAM4",
+   -0.005,
+   0.928
+  ],
+  [
+   "PAM8",
+   0.057,
+   0.218
+  ],
+  [
+   "QPSK",
+   -0.052,
+   0.368
+  ],
+  [
+   "Radar_Pulse",
+   -0.013,
+   0.784
+  ]
+ ]
+}

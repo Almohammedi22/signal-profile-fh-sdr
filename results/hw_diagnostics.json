@@ -1,0 +1,168 @@
+{
+ "Pluto_02/ASK": {
+  "power_rel_bpsk_db_median": 0.05,
+  "outer_to_inner_spacing_median": null,
+  "level_snr_db_median": null,
+  "quadrature_fraction_median": null,
+  "observed_freq_hz_median": -71388.2
+ },
+ "Pluto_02/BPSK": {
+  "power_rel_bpsk_db_median": -0.0,
+  "outer_to_inner_spacing_median": null,
+  "level_snr_db_median": 22.4,
+  "quadrature_fraction_median": 0.006,
+  "observed_freq_hz_median": -63888.5
+ },
+ "Pluto_02/OOK": {
+  "power_rel_bpsk_db_median": -0.57,
+  "outer_to_inner_spacing_median": null,
+  "level_snr_db_median": null,
+  "quadrature_fraction_median": null,
+  "observed_freq_hz_median": -81390.4
+ },
+ "Pluto_02/PAM4": {
+  "power_rel_bpsk_db_median": -0.0,
+  "outer_to_inner_spacing_median": 1.005,
+  "level_snr_db_median": 20.85,
+  "quadrature_fraction_median": 0.0073,
+  "observed_freq_hz_median": -86387.6
+ },
+ "Pluto_02/PAM8": {
+  "power_rel_bpsk_db_median": 0.0,
+  "outer_to_inner_spacing_median": 1.012,
+  "level_snr_db_median": 20.86,
+  "quadrature_fraction_median": 0.0076,
+  "observed_freq_hz_median": -91384.9
+ },
+ "Pluto_04/ASK": {
+  "power_rel_bpsk_db_median": 0.05,
+  "outer_to_inner_spacing_median": null,
+  "level_snr_db_median": null,
+  "quadrature_fraction_median": null,
+  "observed_freq_hz_median": -70655.8
+ },
+ "Pluto_04/BPSK": {
+  "power_rel_bpsk_db_median": -0.0,
+  "outer_to_inner_spacing_median": null,
+  "level_snr_db_median": 22.94,
+  "quadrature_fraction_median": 0.006,
+  "observed_freq_hz_median": -63156.1
+ },
+ "Pluto_04/OOK": {
+  "power_rel_bpsk_db_median": -0.69,
+  "outer_to_inner_spacing_median": null,
+  "level_snr_db_median": null,
+  "quadrature_fraction_median": null,
+  "observed_freq_hz_median": -80658.0
+ },
+ "Pluto_04/PAM4": {
+  "power_rel_bpsk_db_median": 0.01,
+  "outer_to_inner_spacing_median": 1.005,
+  "level_snr_db_median": 20.9,
+  "quadrature_fraction_median": 0.0072,
+  "observed_freq_hz_median": -85655.2
+ },
+ "Pluto_04/PAM8": {
+  "power_rel_bpsk_db_median": 0.0,
+  "outer_to_inner_spacing_median": 1.008,
+  "level_snr_db_median": 20.82,
+  "quadrature_fraction_median": 0.0074,
+  "observed_freq_hz_median": -90660.1
+ },
+ "Pluto_05/ASK": {
+  "power_rel_bpsk_db_median": 0.04,
+  "outer_to_inner_spacing_median": null,
+  "level_snr_db_median": null,
+  "quadrature_fraction_median": null,
+  "observed_freq_hz_median": -72403.0
+ },
+ "Pluto_05/BPSK": {
+  "power_rel_bpsk_db_median": -0.0,
+  "outer_to_inner_spacing_median": null,
+  "level_snr_db_median": 22.31,
+  "quadrature_fraction_median": 0.0067,
+  "observed_freq_hz_median": -64903.3
+ },
+ "Pluto_05/OOK": {
+  "power_rel_bpsk_db_median": -0.66,
+  "outer_to_inner_spacing_median": null,
+  "level_snr_db_median": null,
+  "quadrature_fraction_median": null,
+  "observed_freq_hz_median": -82405.1
+ },
+ "Pluto_05/PAM4": {
+  "power_rel_bpsk_db_median": 0.01,
+  "outer_to_inner_spacing_median": 1.007,
+  "level_snr_db_median": 20.87,
+  "quadrature_fraction_median": 0.0074,
+  "observed_freq_hz_median": -87402.3
+ },
+ "Pluto_05/PAM8": {
+  "power_rel_bpsk_db_median": -0.0,
+  "outer_to_inner_spacing_median": 1.009,
+  "level_snr_db_median": 20.62,
+  "quadrature_fraction_median": 0.0077,
+  "observed_freq_hz_median": -92407.2
+ },
+ "adc_max_amplitude": {
+  "Pluto_02": {
+   "count": 10600.0,
+   "mean": 73.5,
+   "std": 23.8,
+   "min": 45.5,
+   "50%": 67.1,
+   "99%": 127.1,
+   "max": 140.0
+  },
+  "Pluto_04": {
+   "count": 10600.0,
+   "mean": 72.4,
+   "std": 23.5,
+   "min": 44.4,
+   "50%": 66.0,
+   "99%": 125.6,
+   "max": 137.9
+  },
+  "Pluto_05": {
+   "count": 10600.0,
+   "mean": 71.0,
+   "std": 22.9,
+   "min": 44.7,
+   "50%": 64.9,
+   "99%": 122.8,
+   "max": 135.3
+  }
+ },
+ "median_capture_to_noise_db": {
+  "Pluto_02": {
+   "capture_to_noise_db": 2.0,
+   "window_to_noise_db": 6.73
+  },
+  "Pluto_04": {
+   "capture_to_noise_db": 1.63,
+   "window_to_noise_db": 6.36
+  },
+  "Pluto_05": {
+   "capture_to_noise_db": 1.51,
+   "window_to_noise_db": 6.25
+  }
+ },
+ "attempts": {
+  "Pluto_02": {
+   "mean": 1.0523584905660377,
+   "max": 3,
+   "<lambda_0>": 504
+  },
+  "Pluto_04": {
+   "mean": 1.0531132075471699,
+   "max": 5,
+   "<lambda_0>": 505
+  },
+  "Pluto_05": {
+   "mean": 1.0528301886792453,
+   "max": 3,
+   "<lambda_0>": 504
+  }
+ },
+ "window_to_noise_db_min": 3.980438505658448
+}

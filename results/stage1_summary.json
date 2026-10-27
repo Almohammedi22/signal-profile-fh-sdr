@@ -1,0 +1,23 @@
+{
+ "threshold": 1.108152775301702,
+ "N": 256,
+ "K_reference": 4096,
+ "pfa_theory_at_threshold": 0.04528714228188647,
+ "np_threshold_for_pfa_5pct": 1.10497575063398,
+ "cfar_gamma": 1.1119849408394051,
+ "cfar_target_pfa": 0.04528714228188647,
+ "ba_threshold_prior_uniform_-20_25": [
+  1.1252499999999999,
+  0.024509803921568627
+ ],
+ "ba_threshold_prior_uniform_-10_25": [
+  1.1424999999999998,
+  0.013025210084033614
+ ],
+ "ba_threshold_prior_uniform_0_25": [
+  1.2954999999999999,
+  0.0
+ ],
+ "detectability_N_for_pd90_pfa05_at_-20dB": 86390.18371226719,
+ "detectability_N_for_pd90_pfa05_at_-10dB": 933.0338925991715
+}

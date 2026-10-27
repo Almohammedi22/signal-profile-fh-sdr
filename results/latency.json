@@ -1,0 +1,8 @@
+{
+ "cnn": 0.923,
+ "cnn_lstm": 1.312,
+ "cnn_gru": 1.198,
+ "cldnn": 1.586,
+ "bilstm": 0.253,
+ "transformer": 0.415
+}

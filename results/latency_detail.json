@@ -1,0 +1,31 @@
+{
+ "cnn": {
+  "ms_per_window_batch256": 0.923,
+  "ms_single_window": 0.919
+ },
+ "cnn_lstm": {
+  "ms_per_window_batch256": 1.312,
+  "ms_single_window": 2.406
+ },
+ "cnn_gru": {
+  "ms_per_window_batch256": 1.198,
+  "ms_single_window": 2.427
+ },
+ "cldnn": {
+  "ms_per_window_batch256": 1.586,
+  "ms_single_window": 4.17
+ },
+ "bilstm": {
+  "ms_per_window_batch256": 0.253,
+  "ms_single_window": 1.941
+ },
+ "transformer": {
+  "ms_per_window_batch256": 0.415,
+  "ms_single_window": 0.764
+ },
+ "conditions": {
+  "threads": "1",
+  "numpy": "2.5.3",
+  "cpu": "\t: Intel(R) Xeon(R) Processor @ 2.10GHz"
+ }
+}

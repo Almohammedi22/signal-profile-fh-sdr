@@ -1,0 +1,13 @@
+# final short plan 01:12: finish what the paper needs, then stop
+hw Pluto_05 real 3
+hw Pluto_05 real 2 2 3
+syn cnn 2
+syn cnn_lstm 2
+syn cnn_gru 2
+syn cldnn 2
+hw Pluto_04 real 2 2 3
+hw Pluto_02 real 2 2 3
+hw Pluto_05 real 1 20
+hw Pluto_04 real 1 20
+hw Pluto_02 real 1 20
+syn cnn_lstm 1 20

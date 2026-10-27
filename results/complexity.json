@@ -1,0 +1,26 @@
+{
+ "cnn": {
+  "params": 100354,
+  "macs": 8626304
+ },
+ "cnn_lstm": {
+  "params": 231938,
+  "macs": 17014912
+ },
+ "cnn_gru": {
+  "params": 199426,
+  "macs": 14917760
+ },
+ "cldnn": {
+  "params": 380034,
+  "macs": 25419904
+ },
+ "bilstm": {
+  "params": 45762,
+  "macs": 2367616
+ },
+ "transformer": {
+  "params": 74370,
+  "macs": 2396288
+ }
+}
