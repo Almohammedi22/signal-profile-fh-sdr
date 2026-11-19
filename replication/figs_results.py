@@ -157,7 +157,7 @@ TXL = {"Pluto_02": "Pluto\\_02", "Pluto_04": "Pluto\\_04", "Pluto_05": "Pluto\\_
 
 def fig_cfo():
     rows = []
-    for f in sorted(glob.glob(f"{RUNS}/hw_*/cfo_shift.json")):
+    for f in sorted(glob.glob(f"{RUNS}/hw_*/cfo_shift_wide.json")):
         d = os.path.dirname(f)
         info = json.load(open(f"{d}/info.json"))
         j = json.load(open(f))
@@ -178,7 +178,8 @@ def fig_cfo():
     series = [("real", 0.0, "Real-only", SLOTS[0], MARK[0]), ("real", 3.0, "Real-only + offset augmentation", SLOTS[2], MARK[2])]
     for ax, held in zip(axs, helds):
         tr = [CFO[x] for x in helds if x != held]
-        ax.axvspan(min(tr) / 1e3, max(tr) / 1e3, color="#f0efec", zorder=0)
+        ax.axvspan((min(tr) - 3000) / 1e3, (max(tr) + 3000) / 1e3, color="#efede8", zorder=0)   # offsets seen with augmentation
+        ax.axvspan(min(tr) / 1e3, max(tr) / 1e3, color="#d9d6cf", zorder=0)
         ax.axvline(CFO[held] / 1e3, color=MUTED, linewidth=0.6, linestyle=(0, (1, 1.5)))
         for k, (reg, aug, lab, col, mk) in enumerate(series):
             for mod, ls in [("PAM8", "-"), ("PAM4", (0, (3, 1.5)))]:
@@ -194,7 +195,7 @@ def fig_cfo():
                                     color=col, alpha=0.12, linewidth=0)
         ax.set_title(f"Held out: {held.replace('_', chr(95))}", loc="left")
         ax.set_xlabel("Effective offset after shift (kHz)")
-        ax.set_xlim(-5.6, 2.8)
+        ax.set_xlim(-12.6, 9.6)
         ax.set_ylim(-0.03, 1.04)
         grid(ax)
     axs[0].set_ylabel("Recall of the adversarial label")

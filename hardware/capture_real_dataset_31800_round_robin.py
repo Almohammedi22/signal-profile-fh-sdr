@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect 31,800 physically received I/Q captures using four PlutoSDRs.
+"""Collect 31,800 physically received I/Q captures using four Pluto+ SDR boards.
 
 Hardware topology:
   Pluto_02, Pluto_04, Pluto_05: transmitters, one active at a time

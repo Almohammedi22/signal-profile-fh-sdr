@@ -1,4 +1,4 @@
-"""Carrier-frequency offset of each PlutoSDR transmitter relative to the receiver (no new captures).
+"""Carrier-frequency offset of each Pluto+ transmitter relative to the receiver (no new captures).
 
 Uses the captures with real-valued constellations (BPSK, ASK, OOK, PAM4, PAM8). Squaring an
 observation removes the modulation and leaves a spectral line at twice the total frequency offset.
