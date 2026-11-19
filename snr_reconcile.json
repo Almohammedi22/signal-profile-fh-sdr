@@ -1,0 +1,48 @@
+{
+ "by_mod_tx": {
+  "BPSK|Pluto_02": {
+   "inphase_db": 22.45,
+   "complex_db": 19.3
+  },
+  "BPSK|Pluto_04": {
+   "inphase_db": 22.77,
+   "complex_db": 19.19
+  },
+  "BPSK|Pluto_05": {
+   "inphase_db": 22.47,
+   "complex_db": 19.1
+  },
+  "PAM4|Pluto_02": {
+   "inphase_db": 20.97,
+   "complex_db": 18.2
+  },
+  "PAM4|Pluto_04": {
+   "inphase_db": 21.17,
+   "complex_db": 18.29
+  },
+  "PAM4|Pluto_05": {
+   "inphase_db": 20.9,
+   "complex_db": 18.07
+  },
+  "PAM8|Pluto_02": {
+   "inphase_db": 20.63,
+   "complex_db": 17.74
+  },
+  "PAM8|Pluto_04": {
+   "inphase_db": 20.87,
+   "complex_db": 18.06
+  },
+  "PAM8|Pluto_05": {
+   "inphase_db": 20.42,
+   "complex_db": 17.55
+  }
+ },
+ "complex_range_db": [
+  17.55,
+  19.3
+ ],
+ "inphase_range_db": [
+  20.42,
+  22.77
+ ]
+}

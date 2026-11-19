@@ -1,0 +1,316 @@
+{
+ "syn_intervals": [
+  {
+   "job": "syn_bilstm_s1",
+   "arch": "bilstm",
+   "ncls": 2,
+   "bacc": 0.922250425096725,
+   "half_width": 0.009894118390128118,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_bilstm_s2",
+   "arch": "bilstm",
+   "ncls": 2,
+   "bacc": 0.9220832027825794,
+   "half_width": 0.009776039826354208,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_cldnn_s1",
+   "arch": "cldnn",
+   "ncls": 2,
+   "bacc": 0.9357179822075458,
+   "half_width": 0.009136026882679105,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_cnn_gru_s1",
+   "arch": "cnn_gru",
+   "ncls": 2,
+   "bacc": 0.9272723752257501,
+   "half_width": 0.009436105657960053,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_cnn_gru_s2",
+   "arch": "cnn_gru",
+   "ncls": 2,
+   "bacc": 0.9282193815942799,
+   "half_width": 0.009426421809739167,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_cnn_lstm_s1",
+   "arch": "cnn_lstm",
+   "ncls": 2,
+   "bacc": 0.9237695078031212,
+   "half_width": 0.00964678361685505,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_cnn_lstm_s1_20cls",
+   "arch": "cnn_lstm",
+   "ncls": 20,
+   "bacc": 0.9439787645263384,
+   "half_width": 0.00850959107859825,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_cnn_lstm_s2",
+   "arch": "cnn_lstm",
+   "ncls": 2,
+   "bacc": 0.9354733095584274,
+   "half_width": 0.009041154990083983,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_cnn_s1",
+   "arch": "cnn",
+   "ncls": 2,
+   "bacc": 0.9201610262873479,
+   "half_width": 0.009868618957678323,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_cnn_s2",
+   "arch": "cnn",
+   "ncls": 2,
+   "bacc": 0.909509844993716,
+   "half_width": 0.010353204288542436,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_transformer_s1",
+   "arch": "transformer",
+   "ncls": 2,
+   "bacc": 0.9000028163758171,
+   "half_width": 0.011141419553323158,
+   "nF": 1519,
+   "nA": 1309
+  },
+  {
+   "job": "syn_transformer_s2",
+   "arch": "transformer",
+   "ncls": 2,
+   "bacc": 0.9040495963781408,
+   "half_width": 0.010906762503308968,
+   "nF": 1519,
+   "nA": 1309
+  }
+ ],
+ "calib_syn_cnn_lstm": [
+  {
+   "ece": 0.016268547366161148,
+   "acc_conf_085_095": 0.9333333333333333,
+   "mean_conf_085_095": 0.9081905484199524,
+   "acc_conf_ge_09": 0.9925999013320178,
+   "mean_conf_ge_09": 0.9898858070373535,
+   "job": "syn_cnn_lstm_s1"
+  },
+  {
+   "ece": 0.02149565035248077,
+   "acc_conf_085_095": 0.9281045751633987,
+   "mean_conf_085_095": 0.9029170870780945,
+   "acc_conf_ge_09": 0.9920560747663552,
+   "mean_conf_ge_09": 0.9922025799751282,
+   "job": "syn_cnn_lstm_s1_20cls"
+  },
+  {
+   "ece": 0.01878907829733853,
+   "acc_conf_085_095": 0.8941798941798942,
+   "mean_conf_085_095": 0.8999613523483276,
+   "acc_conf_ge_09": 0.9909781576448243,
+   "mean_conf_ge_09": 0.9933373928070068,
+   "job": "syn_cnn_lstm_s2"
+  }
+ ],
+ "calib_hw": [
+  {
+   "ece": 0.00015952145153621457,
+   "acc_conf_085_095": null,
+   "mean_conf_085_095": null,
+   "acc_conf_ge_09": 1.0,
+   "mean_conf_ge_09": 0.9999691247940063,
+   "job": "hw_Pluto_02_real_s1",
+   "bacc": 1.0,
+   "half_width": 0.0
+  },
+  {
+   "ece": 8.510770100470971e-05,
+   "acc_conf_085_095": 1.0,
+   "mean_conf_085_095": 0.9070582985877991,
+   "acc_conf_ge_09": 0.9999056069473287,
+   "mean_conf_ge_09": 0.9998940825462341,
+   "job": "hw_Pluto_02_real_s1_cfo3k",
+   "bacc": 0.999685534591195,
+   "half_width": 0.00036129360433012424
+  },
+  {
+   "ece": 6.198883056640625e-06,
+   "acc_conf_085_095": null,
+   "mean_conf_085_095": null,
+   "acc_conf_ge_09": 1.0,
+   "mean_conf_ge_09": 0.9999938011169434,
+   "job": "hw_Pluto_02_real_s2",
+   "bacc": 1.0,
+   "half_width": 0.0
+  },
+  {
+   "ece": 0.009628049292654324,
+   "acc_conf_085_095": 0.5,
+   "mean_conf_085_095": 0.9182202219963074,
+   "acc_conf_ge_09": 0.9907240889730241,
+   "mean_conf_ge_09": 0.9996638298034668,
+   "job": "hw_Pluto_04_real_s1",
+   "bacc": 0.9867924528301887,
+   "half_width": 0.0024135491452383115
+  },
+  {
+   "ece": 0.00012565337262068028,
+   "acc_conf_085_095": 1.0,
+   "mean_conf_085_095": 0.9199587106704712,
+   "acc_conf_ge_09": 0.9998112673398132,
+   "mean_conf_ge_09": 0.9998005032539368,
+   "job": "hw_Pluto_04_real_s1_cfo3k",
+   "bacc": 0.999685534591195,
+   "half_width": 0.00036129360433012424
+  },
+  {
+   "ece": 0.008864114250776864,
+   "acc_conf_085_095": 0.6666666666666666,
+   "mean_conf_085_095": 0.9146276712417603,
+   "acc_conf_ge_09": 0.9912994136561377,
+   "mean_conf_ge_09": 0.999845564365387,
+   "job": "hw_Pluto_04_real_s2",
+   "bacc": 0.98812893081761,
+   "half_width": 0.0022890931952585618
+  },
+  {
+   "ece": 0.038253380251380614,
+   "acc_conf_085_095": 0.6,
+   "mean_conf_085_095": 0.9053173065185547,
+   "acc_conf_ge_09": 0.9637216425768164,
+   "mean_conf_ge_09": 0.9991968274116516,
+   "job": "hw_Pluto_05_real_s1",
+   "bacc": 0.9470518867924529,
+   "half_width": 0.004631027431607333
+  },
+  {
+   "ece": 0.0001585489061643277,
+   "acc_conf_085_095": null,
+   "mean_conf_085_095": null,
+   "acc_conf_ge_09": 0.9999056514765544,
+   "mean_conf_ge_09": 0.9999849796295166,
+   "job": "hw_Pluto_05_real_s1_cfo3k",
+   "bacc": 0.9997641509433962,
+   "half_width": 0.0003267930147298925
+  },
+  {
+   "ece": 0.07150978142360474,
+   "acc_conf_085_095": 0.5915492957746479,
+   "mean_conf_085_095": 0.911315381526947,
+   "acc_conf_ge_09": 0.9288028974456729,
+   "mean_conf_ge_09": 0.9993613362312317,
+   "job": "hw_Pluto_05_real_s2",
+   "bacc": 0.9064858490566038,
+   "half_width": 0.005868600228048542
+  },
+  {
+   "ece": 0.00020892691499786433,
+   "acc_conf_085_095": 0.8333333333333334,
+   "mean_conf_085_095": 0.9152088165283203,
+   "acc_conf_ge_09": 0.9998112495281238,
+   "mean_conf_ge_09": 0.9999290108680725,
+   "job": "hw_Pluto_05_real_s2_cfo3k",
+   "bacc": 0.9996462264150943,
+   "half_width": 0.00040019084585205043
+  },
+  {
+   "ece": 0.06238985092010138,
+   "acc_conf_085_095": 0.53125,
+   "mean_conf_085_095": 0.9091205596923828,
+   "acc_conf_ge_09": 0.9378681360440814,
+   "mean_conf_ge_09": 0.9997084736824036,
+   "job": "hw_Pluto_05_real_s3",
+   "bacc": 0.9196147798742138,
+   "half_width": 0.0055281979257179314
+  }
+ ],
+ "syn20_friendly_hi_to_adv_rate": 0.040293040293040296,
+ "binary_fa_rate_by_friendly_mod_hi": {
+  "OFDM_16QAM": 0.2,
+  "OFDM": 0.1559633027522936,
+  "OFDM_QPSK": 0.11499999999999999,
+  "BPSK": 0.09859154929577466,
+  "DSSS": 0.02857142857142857,
+  "GFSK": 0.02127659574468085,
+  "16QAM": 0.0,
+  "64QAM": 0.0,
+  "8PSK": 0.0,
+  "CPFSK": 0.0,
+  "MSK": 0.0,
+  "QPSK": 0.0
+ },
+ "syn20_confusions_friendly_to_adv_hi": {
+  "OFDM_16QAM->ASK": 10,
+  "OFDM_QPSK->ASK": 8,
+  "OFDM->ASK": 6,
+  "BPSK->OOK": 4,
+  "DSSS->LoRa_like": 4,
+  "OFDM_16QAM->Burst_Signal": 3,
+  "OFDM_16QAM->LoRa_like": 2,
+  "DSSS->OOK": 2,
+  "OFDM->FHSS": 2,
+  "OFDM->Burst_Signal": 1,
+  "OFDM_16QAM->Radar_Pulse": 1,
+  "GFSK->Radar_Pulse": 1
+ },
+ "retries_total": 1513,
+ "retries_by_tx": {
+  "Pluto_04": 505,
+  "Pluto_05": 504,
+  "Pluto_02": 504
+ },
+ "retries_by_mod": {
+  "Burst_Signal": 1504,
+  "OFDM_16QAM": 4,
+  "ASK": 2,
+  "BPSK": 1,
+  "DSSS": 1,
+  "OFDM": 1
+ },
+ "retry_rate_by_mod": {
+  "Burst_Signal": 0.9459,
+  "OFDM_16QAM": 0.0025,
+  "ASK": 0.0013,
+  "DSSS": 0.0006,
+  "OFDM": 0.0006,
+  "BPSK": 0.0006,
+  "16QAM": 0.0,
+  "64QAM": 0.0,
+  "8PSK": 0.0,
+  "GFSK": 0.0,
+  "FHSS": 0.0,
+  "CPFSK": 0.0,
+  "MSK": 0.0,
+  "LoRa_like": 0.0,
+  "OFDM_QPSK": 0.0,
+  "OOK": 0.0,
+  "PAM4": 0.0,
+  "PAM8": 0.0,
+  "QPSK": 0.0,
+  "Radar_Pulse": 0.0
+ },
+ "attempts_max": 5
+}
