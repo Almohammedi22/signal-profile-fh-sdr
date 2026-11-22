@@ -19,7 +19,7 @@ The data files are attached to release **v2.0** of this repository (Releases, on
 | Folder | Contents |
 |---|---|
 | `replication/` | NumPy implementation of the six networks and the complete pipeline used in the paper (see below) |
-| `synthetic/` | Original MATLAB scripts for Dataset v5 (occupied subset, energy threshold, CNN-LSTM training, SNR-binned results) |
+| `synthetic/` | Dataset v5 waveform generator (`waveforms.py`, settings in Appendix B of the paper) and the original MATLAB scripts for Dataset v5 (occupied subset, energy threshold, CNN-LSTM training, SNR-binned results) |
 | `hardware/` | Capture of the 31,800 windows, leakage-controlled split, MATLAB leave-one-device-out training, live conducted tests |
 | `analysis/` | Supporting analyses of the MATLAB experiments (end-to-end pipeline, energy-detector figure, carrier-frequency offsets) |
 | `results/` | Summary tables reported in the paper (CSV and JSON) |
@@ -34,7 +34,7 @@ The data files are attached to release **v2.0** of this repository (Releases, on
 | `gradcheck.py` | Finite-difference check of the gradients of all six networks | 4.5 |
 | `complexity.py`, `latency.py` | Parameters, multiply-accumulate operations, CPU time per window | Table 2, 6.2 |
 | `run_experiment.py` | One training run (synthetic or hardware fold, real-only or combined, optional offset augmentation, 2 or 20 classes) | 5.4, 6.2-6.7 |
-| `run_queue.py`, `queue.txt` | Runs all 110 training jobs of the paper; several copies can share the queue | |
+| `run_queue.py`, `queue.txt` | Runs the 30 training jobs reported in the paper (the runs in `runs_v2.zip`); several copies can share the queue | |
 | `cfo_shift_eval.py` | Test-time frequency-shift intervention on trained hardware models | 6.7 |
 | `stage1_analysis.py` | Energy detector: theory, noise-power uncertainty, noise-referenced detector | 6.1 |
 | `syn_measure.py`, `hw_diagnostics.py` | Properties measured on the stored windows; tests of alternative explanations | 5.1, 5.3, 6.7 |
@@ -57,7 +57,7 @@ cd replication
 export SPR_DATA=/path/to/data_folder        # folder with the unzipped release files
 python prepare_cache.py                     # once, about a minute
 python gradcheck.py                         # optional
-python run_queue.py 600 &                   # trains the 110 jobs of queue.txt; start one copy per CPU core
+python run_queue.py 600 &                   # trains the 30 jobs of queue.txt; start one copy per CPU core
 python cfo_shift_eval.py                    # after the hardware runs have finished
 python stage1_analysis.py
 python syn_measure.py
