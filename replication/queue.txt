@@ -1,13 +1,31 @@
-# final short plan 01:12: finish what the paper needs, then stop
-hw Pluto_05 real 3
-hw Pluto_05 real 2 2 3
-syn cnn 2
-syn cnn_lstm 2
-syn cnn_gru 2
-syn cldnn 2
-hw Pluto_04 real 2 2 3
-hw Pluto_02 real 2 2 3
+# The 30 training runs reported in the paper (the runs in runs_v2.zip)
+hw Pluto_02 combined 1
+hw Pluto_02 combined 2
+hw Pluto_02 real 1
+hw Pluto_02 real 1 2 3
+hw Pluto_02 real 2
+hw Pluto_04 combined 1
+hw Pluto_04 combined 2
+hw Pluto_04 real 1
+hw Pluto_04 real 1 2 3
+hw Pluto_04 real 2
+hw Pluto_05 combined 1
+hw Pluto_05 combined 2
+hw Pluto_05 real 1
 hw Pluto_05 real 1 20
-hw Pluto_04 real 1 20
-hw Pluto_02 real 1 20
+hw Pluto_05 real 1 2 3
+hw Pluto_05 real 2
+hw Pluto_05 real 2 2 3
+hw Pluto_05 real 3
+syn bilstm 1
+syn bilstm 2
+syn cldnn 1
+syn cnn_gru 1
+syn cnn_gru 2
+syn cnn_lstm 1
 syn cnn_lstm 1 20
+syn cnn_lstm 2
+syn cnn 1
+syn cnn 2
+syn transformer 1
+syn transformer 2
